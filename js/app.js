@@ -12,9 +12,9 @@ alert('name: ' + player1);
 var ask = prompt('Greetings, ' + player1 + '!\n\nDo you like lions? (yes/no)');
 ask = ask.toLowerCase();
 
-if (ask === 'yes' || ask === 'no'){
+if (ask === ('yes' || 'no')){
   alert('lions!');
-  // console.log('lions!');
+  // console.log('lions!, answer: ' + ask);
 } else {
   alert('knock knock. ya blew it.');
   // console.log('knock knock. ya blew it.');
@@ -27,7 +27,7 @@ ask = ask.toLowerCase();
 
 if (ask === 'yes' || ask === 'no'){
   alert('tigers!');
-  // console.log('tigers!');
+  // console.log('tigers! answer: ' + ask);
 } else {
   alert('knock knock. ya blew it.');
   // console.log('knock knock. ya blew it.');
@@ -40,7 +40,7 @@ ask = ask.toLowerCase();
 
 if (ask === 'yes' || ask === 'no'){
   alert('bears!');
-  // console.log('bears!');
+  // console.log('bears! answer: ' + ask);
 } else {
   alert('knock knock. ya blew it.');
   // console.log('knock knock. ya blew it.');
@@ -53,7 +53,7 @@ ask = ask.toLowerCase();
 
 if (ask === 'yes' || ask === 'no'){
   alert('previous expression of alarm');
-  // console.log('previous expression of alarm');
+  // console.log('previous expression of alarm, answer: ' + ask);
 } else {
   alert('knock knock. ya blew it.');
   // console.log('knock knock. ya blew it.');
@@ -66,7 +66,7 @@ ask = ask.toLowerCase();
 
 if (ask === 'yes' || ask === 'no'){
   alert('prior OSHA claim');
-  // console.log('prior OSHA claim');
+  // console.log('prior OSHA claim, answer: ' + ask);
 } else {
   alert('knock knock. ya blew it.');
   // console.log('knock knock. ya blew it.');
@@ -77,3 +77,8 @@ alert('Thank you for letting me run you through some questions, ' + player1 + '!
 
 // Peter - when we get arrays, try using one variable
 // and cycling the prompts and logs as strings? 10/29/19
+
+// Name variables after what you expect them to hold, like answerLions
+// select the next found variable "ctrl + d" for windows, check for mac
+// when you have the variety of variables, use that to make your
+// responses more descriptive, elaborate.
