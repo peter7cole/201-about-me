@@ -115,11 +115,11 @@ var ansNumber = '';
 
 while ((numberOfGuessesLeft !== 0) && (correctFlag === 0)) {
   ansNumber = prompt('Guess a number between 1 and 10. You get ' +
-    numberOfGuessesLeft + ' more guesses.');
+  numberOfGuessesLeft + ' more guesses.');
   ansNumber = parseInt(ansNumber, 10);
   console.log('Guess: ' + ansNumber + ', typeof ' + typeof winNumber); // converts prompt to number
   if (ansNumber === winNumber) {
-    correctFlag++;
+    correctFlag = 1;
   }
   console.log('Correct Flag (1-yes or 0-no): ' + correctFlag);
   if (correctFlag === 0) {
@@ -171,6 +171,7 @@ while ((numberOfGuessesLeft > 0) && (volcanoesCorrect < 5)) {
   ansVolcano = ansVolcano.toString();
   ansVolcano = ansVolcano.toLowerCase();
   ansVolcano = ansVolcano.charAt(0).toUpperCase() + ansVolcano.slice(1);
+  console.log('Guess: ' + ansVolcano);
   for(var index = 0; index < arrayGuessed.length; index++) {
     if(arrayGuessed[index] === ansVolcano) {
       guessedAlready = true;
@@ -188,7 +189,7 @@ while ((numberOfGuessesLeft > 0) && (volcanoesCorrect < 5)) {
         // volcanoesCorrect++;
         volcanoesCorrect = 5;// Delete this line to make them guess all 5
         console.log('# of Volcanoes correctly guessed: ' + volcanoesCorrect);
-        correctFlag = 1; //
+        correctFlag = 1;
         console.log(correctFlag);
         score++;
         console.log('Score: ' + score);
