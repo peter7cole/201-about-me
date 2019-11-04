@@ -15,3 +15,7 @@ beginning the new work.
     10-31-19 Peter Cole Lab 3
     Updated work with correct repository
 
+v3.0
+11-3-19 Peter Cole Lab 5b
+Finished styling and hosted with S3
+
