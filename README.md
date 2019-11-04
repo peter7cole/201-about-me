@@ -11,11 +11,11 @@ v2.0
 Created an update after class today before
 beginning the new work.
 
-    v2.1
-    10-31-19 Peter Cole Lab 3
-    Updated work with correct repository
+v2.1
+10-31-19 Peter Cole Lab 3
+Updated work with correct repository
 
 v3.0
 11-3-19 Peter Cole Lab 5b
-Finished styling and hosted with S3
+Finished styling and will host with S3
 
